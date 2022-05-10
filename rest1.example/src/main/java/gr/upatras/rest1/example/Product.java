@@ -7,7 +7,6 @@ private String batchno;
 private String manufacturer;
 private double price;
 private int noofproduct;
-
 public String getManufacturer() {
 	return manufacturer;
 }
@@ -52,4 +51,5 @@ this.pname = pname;
 this.batchno = batchno;
 this.price = price;
 this.noofproduct = noofproduct;
+}
 }
