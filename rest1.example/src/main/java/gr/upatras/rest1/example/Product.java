@@ -4,15 +4,8 @@ public class Product {
 private int id;
 private String pname;
 private String batchno;
-private String manufacturer;
 private double price;
 private int noofproduct;
-public String getManufacturer() {
-	return manufacturer;
-}
-public void setManufacturer(String manufacturer) {
-	this.manufacturer = manufacturer;
-}
 
 public int getId() {
 return id;
